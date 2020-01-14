@@ -1,0 +1,98 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/musicHall/music_hall",
+			"style": {
+				// "navigationBarTitleText": "音乐馆"
+				"usingComponents": {
+				 "van-search": "/wxcomponents/vant/dist/search/index"
+				}
+			}
+		},
+		{
+			"path": "pages/recommend/recommend",
+			"style": {
+				// "navigationBarTitleText": "推荐"
+			}
+		},
+		{
+			"path": "pages/activity/activity",
+			"style": {
+				// "navigationBarTitleText": "动态"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				// "navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/recommendMore/recommendMore",
+			"style": {
+				 "navigationBarTitleText": "推荐歌单"
+			}
+		},
+		{
+			"path": "pages/mvDetail/mvDetail",
+			"style": {
+				//"navigationBarTitleText": "精选视频",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/mvMore/mvMore",
+			"style": {
+				"navigationBarTitleText": "精选视频"
+				//"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/recommendDetail/recommendDetail",
+			"style": {
+				//"navigationBarTitleText": "推荐歌单"
+				"navigationStyle":"custom"
+			}
+		}
+		// {
+		// 	"path": "pages/song-detail/song-detail",
+		// 	"style": {
+		// 		//"navigationBarTitleText": "song-play"
+		// 		"navigationStyle":"custom"
+		// 	}
+		// }
+	],
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "#31c27c",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/musicHall/music_hall",
+	        "iconPath": "static/img/music.png",
+	        "selectedIconPath": "static/img/music_selected.png",
+	        "text": "音乐馆"
+	    }, {
+	        "pagePath": "pages/recommend/recommend",
+	        "iconPath": "static/img/recommend.png",
+	        "selectedIconPath": "static/img/recommend_selected.png",
+	        "text": "推荐"
+	    }, {
+	        "pagePath": "pages/activity/activity",
+	        "iconPath": "static/img/activity.png",
+	        "selectedIconPath": "static/img/activity_selected.png",
+	        "text": "动态"
+	    }, {
+	        "pagePath": "pages/index/index",
+	        "iconPath": "static/img/index.png",
+	        "selectedIconPath": "static/img/index_selected.png",
+	        "text": "我的"
+	    }]
+	} ,
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "CloudMusic",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

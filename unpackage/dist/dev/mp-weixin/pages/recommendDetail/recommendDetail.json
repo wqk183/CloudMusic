@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "luch-audio": "/components/luch-audio/luch-audio",
+    "song-detail": "/components/song-detail/song-detail"
+  }
+}

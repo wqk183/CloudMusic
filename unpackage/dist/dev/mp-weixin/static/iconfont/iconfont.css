@@ -1,0 +1,88 @@
+@font-face {font-family: "iconfont";
+  src: url('//at.alicdn.com/t/font_1584210_je2uj2vzsq.ttf') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 28px;
+  color: #31c27c;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-wode:before {
+  content: "\e60c";
+}
+
+.icon-paixingbang:before {
+  content: "\e6c5";
+}
+
+.icon-iconfontzhizuobiaozhun023146:before {
+  content: "\e694";
+}
+
+.icon-yinyue:before {
+  content: "\e680";
+}
+
+.icon-geshou:before {
+  content: "\e605";
+}
+
+.icon-shoucang:before {
+  content: "\e613";
+}
+
+.icon-tuijian:before {
+  content: "\e636";
+}
+
+.icon-dongtai:before {
+  content: "\e621";
+}
+
+.icon-shangyishou:before {
+  content: "\e603";
+}
+
+.icon-xiayishou:before {
+  content: "\e602";
+}
+
+.icon-zanting:before {
+  content: "\e641";
+}
+
+.icon-bofang:before {
+  content: "\e643";
+}
+
+.icon-MV:before {
+  content: "\e62c";
+}
+
+.icon-diantai:before {
+  content: "\e638";
+}
+
+.icon-gedan:before {
+  content: "\e637";
+}
+
+.icon-yinyue-copy:before {
+  content: "\e681";
+}
+
+.icon-tuijian-copy:before {
+  content: "\e682";
+}
+
+.icon-dongtai-copy:before {
+  content: "\e683";
+}
+
+.icon-wode-copy:before {
+  content: "\e684";
+}

@@ -1,0 +1,41 @@
+.mvDetail{
+	.mvDetail-context{
+		.mvDetail-context-video{
+			width: 100%;
+			margin-bottom: 12px;
+		}
+	}
+	.mvDetail-comment{
+		padding-left: 12px;
+		padding-right: 12px;
+		.mvDetail-comment-title{
+			display: flex;
+			align-items: center;
+			margin-bottom: 12px;
+			.title{
+				font-weight: bold;
+				margin-left: 5px;
+			}
+		}
+		.mvDetail-comment-desc{
+			.mvDetail-comment-desc-author{
+				display: flex;
+				align-items: center;
+				margin-bottom: 12px;
+				.img{
+					width: 12px;
+					height: 12px;
+				}
+				.author{
+					color: gray;
+					margin-left: 5px;
+					font-size: 12px;
+				}
+			}
+			.desc{
+				color: gray;
+				font-size: 12px;
+			}
+		}
+	}
+}

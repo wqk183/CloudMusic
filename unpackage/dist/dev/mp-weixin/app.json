@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/musicHall/music_hall",
+    "pages/recommend/recommend",
+    "pages/activity/activity",
+    "pages/index/index",
+    "pages/recommendMore/recommendMore",
+    "pages/mvDetail/mvDetail",
+    "pages/mvMore/mvMore",
+    "pages/recommendDetail/recommendDetail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "CloudMusic",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#31c27c",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/musicHall/music_hall",
+        "iconPath": "static/img/music.png",
+        "selectedIconPath": "static/img/music_selected.png",
+        "text": "音乐馆"
+      },
+      {
+        "pagePath": "pages/recommend/recommend",
+        "iconPath": "static/img/recommend.png",
+        "selectedIconPath": "static/img/recommend_selected.png",
+        "text": "推荐"
+      },
+      {
+        "pagePath": "pages/activity/activity",
+        "iconPath": "static/img/activity.png",
+        "selectedIconPath": "static/img/activity_selected.png",
+        "text": "动态"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/img/index.png",
+        "selectedIconPath": "static/img/index_selected.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-nav-bar": "/components/uni-nav-bar/uni-nav-bar"
+  },
+  "sitemapLocation": "sitemap35.json"
+}
