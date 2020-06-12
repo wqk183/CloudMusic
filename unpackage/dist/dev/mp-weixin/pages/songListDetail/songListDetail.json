@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "song-detail": "/components/song-detail/song-detail",
+    "uni-nav-bar": "/components/uni-nav-bar/uni-nav-bar",
+    "luch-audio": "/components/luch-audio/luch-audio"
+  }
+}

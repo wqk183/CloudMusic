@@ -4,7 +4,7 @@
 			<image :src="poster" v-if="poster" class="cover-img"></image>
 			<view class="play-btn" :class="{ pause: play }" @click="handleBtnClick"></view>
 		</view>
-		<view class="audio-con" @click="toSongDetail">
+		<view class="audio-con" @click="showPage">
 			<view class="info">
 				<text class="audio-title am-text-eill">{{ name }}</text>
 				<text class="audio-author am-text-eill">{{ author }}</text>
@@ -90,8 +90,8 @@ export default {
 		};
 	},
 	methods: {
-		toSongDetail(){
-			this.$emit('toSongDetail');
+		showPage(){
+			this.$emit('showPage');
 		},
 		audioPlay() {
 			this.$emit('update:play', true);

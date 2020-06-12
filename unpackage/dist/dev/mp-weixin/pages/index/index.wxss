@@ -24,4 +24,74 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
+.tips {
+  color: #cdcdcd;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 12px;
+}
+.tips .register {
+  color: blue;
+  cursor: pointer;
+}
+.my .myTop-img .myTop-img-context {
+  width: 100%;
+  height: 280px;
+  margin-bottom: 24px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.my .my-id {
+  position: absolute;
+  top: 160px;
+  left: 50%;
+  margin-top: -75px;
+  margin-left: -75px;
+}
+.my .my-id .id .img {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+}
+.my .my-id .name {
+  text-align: center;
+  font-weight: blod;
+}
+.my .my-mian {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.my .my-mian .my-content {
+  height: 45px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.my .my-mian .my-content .left {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.my .my-mian .my-content .left .iconfont {
+  font-size: 18px;
+  color: #8a8a8a;
+}
+.my .my-mian .my-content .left .title {
+  font-size: 18px;
+  margin-left: 12px;
+}
+.my .my-mian .my-content .right {
+  font-size: 18px;
+  color: #8a8a8a;
+}
+.my .my-mian .my-content:hover {
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
 

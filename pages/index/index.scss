@@ -1,0 +1,68 @@
+.tips{
+	color: #cdcdcd;
+	font-size: 14px;
+	text-align: center;
+	margin-top: 12px;
+	.register{
+		color: blue;
+		cursor: pointer;
+	}
+}
+.my{
+		.myTop-img{
+			.myTop-img-context{
+				width: 100%;
+				height: 280px;
+				margin-bottom: 24px;
+				border-bottom-left-radius: 30px;
+				border-bottom-right-radius: 30px;
+			}
+		}
+		.my-id{
+			position: absolute;
+			 top:160px;
+			 left:50%;
+			 margin-top:-75px;
+			 margin-left:-75px;
+			.id{
+				.img{
+					width: 150px;
+					height: 150px;
+					border-radius: 75px;
+				}
+			}
+			.name{
+				text-align: center;
+				font-weight: blod;
+			}
+		}
+		.my-mian{
+			margin-left: 12px;
+			margin-right: 12px;
+			.my-content{
+				height: 45px;
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				.left{
+					display: flex;
+					.iconfont{
+						font-size: 18px;
+						color: #8a8a8a;
+					}
+					.title{
+						font-size: 18px;
+						margin-left: 12px;
+					}
+				}
+				.right{
+					font-size: 18px;
+					color: #8a8a8a;
+				}
+			}
+			.my-content:hover{
+				background-color: #f2f2f2;
+				cursor: pointer;
+			}
+		}
+	}

@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-nav-bar": "/components/uni-nav-bar/uni-nav-bar",
+    "luch-audio": "/components/luch-audio/luch-audio"
+  }
+}

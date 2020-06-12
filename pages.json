@@ -10,27 +10,30 @@
 			}
 		},
 		{
-			"path": "pages/recommend/recommend",
-			"style": {
-				// "navigationBarTitleText": "推荐"
-			}
-		},
-		{
 			"path": "pages/activity/activity",
 			"style": {
 				// "navigationBarTitleText": "动态"
 			}
 		},
 		{
-			"path": "pages/index/index",
+			"path": "pages/recommend/recommend",
 			"style": {
-				// "navigationBarTitleText": "我的"
+				// "navigationBarTitleText": "推荐"
 			}
 		},
 		{
-			"path": "pages/recommendMore/recommendMore",
+			"path": "pages/index/index",
 			"style": {
-				 "navigationBarTitleText": "推荐歌单"
+				// "navigationBarTitleText": "我的"
+				"usingComponents": {
+				 "van-field": "/wxcomponents/vant/dist/field/index"
+				}
+			}
+		},
+		{
+			"path": "pages/songListMore/songListMore",
+			"style": {
+				 "navigationBarTitleText": "官方歌单"
 			}
 		},
 		{
@@ -48,23 +51,102 @@
 			}
 		},
 		{
-			"path": "pages/recommendDetail/recommendDetail",
+			"path": "pages/songListDetail/songListDetail",
 			"style": {
 				//"navigationBarTitleText": "推荐歌单"
 				"navigationStyle":"custom"
 			}
+		},
+		{
+			"path": "pages/recommendListDetail/recommendListDetail",
+			"style": {
+				//"navigationBarTitleText": "推荐歌单"
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+				//"navigationBarTitleText": "个人中心"
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/register/register",
+			"style": {
+				//"navigationBarTitleText": "注册页"
+				"navigationStyle":"custom",
+				"usingComponents": {
+				 "van-field": "/wxcomponents/vant/dist/field/index",
+				 "van-radio": "/wxcomponents/vant/dist/radio/index",
+				 "van-radio-group": "/wxcomponents/vant/dist/radio-group/index",
+				 "van-uploader": "/wxcomponents/vant/dist/uploader/index"
+				}
+			}
+		},
+		{
+			"path": "pages/updateInfor/updateInfor",
+			"style": {
+				//"navigationBarTitleText": "个人信息修改"
+				"navigationStyle":"custom",
+				"usingComponents": {
+				 "van-field": "/wxcomponents/vant/dist/field/index",
+				 "van-radio": "/wxcomponents/vant/dist/radio/index",
+				 "van-radio-group": "/wxcomponents/vant/dist/radio-group/index",
+				 "van-uploader": "/wxcomponents/vant/dist/uploader/index"
+				}
+			}
+		},
+		{
+			"path": "pages/myLove/myLove",
+			"style": {
+				//"navigationBarTitleText": "我的喜欢"
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/myDownload/myDownload",
+			"style": {
+				//"navigationBarTitleText": "我的下载"
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/activityDetail/activityDetail",
+			"style": {
+				//"navigationBarTitleText": "注册页"
+				"navigationStyle":"custom",
+				"usingComponents": {
+				 "van-uploader": "/wxcomponents/vant/dist/uploader/index"
+				}
+			}
+		},
+		{
+			"path": "pages/deleteActivity/deleteActivity",
+			"style": {
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/comment/comment",
+			"style": {
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				//"navigationBarTitleText": "搜索中心"
+				"navigationStyle":"custom",
+				"usingComponents": {
+				 "van-search": "/wxcomponents/vant/dist/search/index"
+				}
+			}
 		}
-		// {
-		// 	"path": "pages/song-detail/song-detail",
-		// 	"style": {
-		// 		//"navigationBarTitleText": "song-play"
-		// 		"navigationStyle":"custom"
-		// 	}
-		// }
 	],
 	"tabBar": {
 	    "color": "#7A7E83",
-	    "selectedColor": "#31c27c",
+	    "selectedColor": "#4fc08d",
 	    "borderStyle": "black",
 	    "backgroundColor": "#ffffff",
 	    "list": [{

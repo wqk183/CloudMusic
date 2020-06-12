@@ -1,5 +1,9 @@
 <script>
+	import {setIsShow,setUserInfor,removeIsShow,removeUserInfor} from "./util/index.js";
 	export default {
+		// globalData: {  
+		//             userInfor: ''  
+		//         }, 
 		onLaunch: function() {
 			console.log('App Launch')
 		},

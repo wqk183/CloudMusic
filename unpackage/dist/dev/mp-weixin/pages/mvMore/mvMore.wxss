@@ -29,33 +29,34 @@
   padding-right: 12px;
 }
 .mvMore .mvMore-main .mvMore-img-con {
-    width: 100%;
-    height: 180px;
+  width: 100%;
+  height: 180px;
+  border-radius: 10px;
 }
 .mvMore .mvMore-main .mvMore-content-main {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-            justify-content: space-between;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-            align-items: center;
-    padding-bottom: 12px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding-bottom: 12px;
 }
 .mvMore .mvMore-main .mvMore-content-main .mvMore-context-title {
-      max-width: 180px;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
+  max-width: 180px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .mvMore .mvMore-main .mvMore-content-main .mvMore-context-name {
-      color: gray;
-      font-size: 12px;
-      max-width: 80px;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
+  color: gray;
+  font-size: 12px;
+  max-width: 80px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 

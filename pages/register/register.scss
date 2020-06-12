@@ -1,0 +1,29 @@
+.register{
+	.register-main{
+		.temp{
+			padding-left: 16px;
+		}
+		van-radio-group{
+			display: flex;
+			border-bottom: 0.012px solid #e6e6e6;
+			van-radio{
+				padding:10px 16px 10px 0;
+			}
+		}
+		.van-radio__icon-wrap{
+			font-size: 14px;
+		}
+		.van-radio__label {
+			font-size: 14px;
+		}
+		.sex{
+			max-width: 90px;
+			min-width: 90px;
+			padding:10px 0 10px 0;
+			font-size: 14px;
+		}
+		van-uploader{
+			padding-left: 16px;
+		}
+	}
+}

@@ -29,102 +29,102 @@
   padding-right: 12px;
 }
 .content .content-search .van-search {
-    padding-left: 0;
-    padding-right: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 .content .content-carousel .content-carousel-img {
-    height: 100%;
-    width: 100%;
-    border-radius: 6px;
+  height: 100%;
+  width: 100%;
+  border-radius: 6px;
 }
 .content .content-funBtn {
-    padding: 12px;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-            justify-content: space-between;
+  padding: 12px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
 }
 .content .content-funBtn .content-funBtn-main #icon {
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: flex;
-      -webkit-box-pack: center;
-      -webkit-justify-content: center;
-              justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
 }
 .content .content-funBtn .content-funBtn-main .context {
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: flex;
-      -webkit-box-pack: center;
-      -webkit-justify-content: center;
-              justify-content: center;
-      font-size: 14px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  font-size: 14px;
 }
 .content .content-recommendMusicList {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-            justify-content: space-between;
-    margin-top: 12px;
-    margin-bottom: 12px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 .content .content-recommendMusicList .recommend {
-      font-size: 18px;
-      font-weight: bold;
+  font-size: 18px;
+  font-weight: bold;
 }
 .content .content-recommendMusicList .more {
-      font-size: 12px;
+  font-size: 12px;
 }
 .content .content-recommendMusicList-context .scroll-view_H {
-    white-space: nowrap;
+  white-space: nowrap;
 }
 .content .content-recommendMusicList-context .scroll-view_H .scroll-view_H_box {
-      display: inline-block;
-      margin-right: 6px;
+  display: inline-block;
+  margin-right: 6px;
 }
 .content .content-recommendMusicList-context .scroll-view_H .scroll-view_H_box .scroll-view-item_H-img {
-        width: 105px;
-        height: 105px;
-        border-radius: 6px;
+  width: 120px;
+  height: 120px;
+  border-radius: 6px;
 }
 .content .content-recommendMusicList-context .scroll-view_H .scroll-view_H_box .scroll-view-item_context {
-        font-size: 12px;
-        max-width: 105px;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
+  font-size: 12px;
+  max-width: 120px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .content .content-recommendMusicList-context .scroll-view_H .scroll-view_H_box:last-child {
-      margin-right: 0;
+  margin-right: 0;
 }
 .content .content-niceVideoList-context .scroll-view_H {
-    white-space: nowrap;
+  white-space: nowrap;
 }
 .content .content-niceVideoList-context .scroll-view_H .scroll-view_H_box {
-      display: inline-block;
-      margin-right: 6px;
+  display: inline-block;
+  margin-right: 6px;
 }
 .content .content-niceVideoList-context .scroll-view_H .scroll-view_H_box .scroll-view-item_H-img {
-        width: 210px;
-        height: 105px;
-        border-radius: 6px;
+  width: 250px;
+  height: 130px;
+  border-radius: 6px;
 }
 .content .content-niceVideoList-context .scroll-view_H .scroll-view_H_box .scroll-view-item_context {
-        font-size: 12px;
-        max-width: 210PX;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
+  font-size: 12px;
+  max-width: 250PX;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .content .content-niceVideoList-context .scroll-view_H .scroll-view_H_box .other-css {
-        color: gray;
+  color: gray;
 }
 .content .content-niceVideoList-context .scroll-view_H .scroll-view_H_box:last-child {
-      margin-right: 0;
+  margin-right: 0;
 }
 

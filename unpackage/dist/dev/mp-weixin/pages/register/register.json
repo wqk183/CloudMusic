@@ -1,0 +1,10 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-nav-bar": "/components/uni-nav-bar/uni-nav-bar",
+    "van-field": "/wxcomponents/vant/dist/field/index",
+    "van-radio": "/wxcomponents/vant/dist/radio/index",
+    "van-radio-group": "/wxcomponents/vant/dist/radio-group/index",
+    "van-uploader": "/wxcomponents/vant/dist/uploader/index"
+  }
+}

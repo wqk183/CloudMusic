@@ -1,0 +1,70 @@
+page{
+	//height: 100%;
+}
+.search{
+	//height: 100%;
+	//background-color: #f2f2f2;
+	.playDiv{
+		z-index: 1000;
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+	}
+	.content-search{
+		padding: 0 12px;
+		.van-search{
+			//background:#f2f2f2!important;
+			padding-left: 0;
+			padding-right: 0;
+			.van-search__content {
+				//background-color: white;
+			}
+
+		}
+	}
+	.hot-search{
+		padding: 0 12px;
+		.title{
+			font-size: 16px;
+			font-weight: bold;
+		}
+		.hot-list{
+			display: flex;
+			flex-wrap: wrap;
+			.item{
+				font-size: 15px;
+				padding: 8px 15px;
+				border-radius: 18px;
+				margin:5px 10px 5px 0;
+				background-color:  #f2f2f2;
+			}
+		}
+	}
+	.song-list{
+		//padding: 0 12px;
+		margin-bottom: 75px;
+		.main{
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow:ellipsis;
+			padding: 10px 12px;
+			margin: 10px 0;
+			//background-color:  #f2f2f2;
+			border-radius: 18px;
+			.title{
+				color:#4fc08d;
+				//font-family: '楷体';
+				//font-size: 14px;
+			}
+			.sinername{
+				//font-family: '楷体';
+				color: gray;
+				font-size: 14px;
+			}
+		}
+	}
+}

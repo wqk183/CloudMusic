@@ -31,31 +31,22 @@
 </template>
 
 <script>
-	import Lyric from 'lyric-parser'
 	export default{
 		data(){
 			return{
 				playState:false,
-				currentLyric:null,
-				windowHeight:'',
 			}
 		},
-		created(){
-			uni.getSystemInfo({
-			  success: (res) => {
-				  console.log(res.windowHeight)
-				  this.windowHeight=res.windowHeight+'px'
-			  }
-			})
-			uni.request({
-				url:'https://api.qq.jsososo.com/lyric?songmid=0039MnYb0qxYhV',
-				success: (res) => {
-					console.log("---歌词---->",res)
-					let lyric=res.data.data.lyric
-					this.currentLyric=new Lyric(lyric)
-					console.log("---歌词转换---->",this.currentLyric)
-				}
-			})
+		props:{
+			currentLyric:{
+				type:Object
+			},
+			windowHeight:{
+				type:String
+			}
+		},
+		created() {
+			console.log("qqqqqqqq")
 		},
 		methods:{
 			//返回上一层

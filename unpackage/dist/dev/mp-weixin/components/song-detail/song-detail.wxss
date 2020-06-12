@@ -30,60 +30,60 @@
   height: calc(100% - 64px);
 }
 .song-detail .song-detail-content .song-detail-songInfo {
-    text-align: center;
-    height: calc(100% - 100px);
+  text-align: center;
+  height: calc(100% - 100px);
 }
 .song-detail .song-detail-content .song-detail-songInfo .scroll-Y {
-      height: 100%;
+  height: 100%;
 }
 .song-detail .song-detail-content .song-detail-songInfo .scroll-Y .song {
-        font-size: 14px;
-        line-height: 32px;
+  font-size: 14px;
+  line-height: 32px;
 }
 .song-detail .song-detail-content .song-detail-progress {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-            justify-content: space-between;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-            align-items: center;
-    position: fixed;
-    bottom: 80px;
-    left: 36px;
-    right: 36px;
-    height: 20px;
-    z-index: 1002;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  position: fixed;
+  bottom: 80px;
+  left: 36px;
+  right: 36px;
+  height: 20px;
+  z-index: 1002;
 }
 .song-detail .song-detail-content .song-detail-progress .progress {
-      width: 100%;
+  width: 100%;
 }
 .song-detail .song-detail-content .song-detail-songAction {
-    height: 80px;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-            justify-content: space-between;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-            align-items: center;
-    position: fixed;
-    bottom: 0;
-    left: 36px;
-    right: 36px;
-    z-index: 1002;
+  height: 80px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 36px;
+  right: 36px;
+  z-index: 1002;
 }
 .song-detail .song-detail-content .song-detail-songAction #up {
-      font-size: 45px;
+  font-size: 45px;
 }
 .song-detail .song-detail-content .song-detail-songAction #play {
-      font-size: 45px;
+  font-size: 45px;
 }
 .song-detail .song-detail-content .song-detail-songAction #next {
-      font-size: 45px;
+  font-size: 45px;
 }
 

@@ -7,7 +7,7 @@
 				</view>
 				<view class="mvMore-content-main">
 					<view class="mvMore-context-title">{{item.mvtitle}}</view>
-					<view class="mvMore-context-name" v-for="(items,index) in item.singers" :key="index">&nbsp;{{items.name}}</view>
+					<view class="mvMore-context-name">&nbsp;{{item.singername}}</view>
 				</view>
 			</view>
 		</view>
@@ -28,9 +28,9 @@
 		},
 		created(){
 			uni.request({
-				url:'https://api.qq.jsososo.com/new/mv',
+				url:this.$baseURL+'/mv',
 				success: (res) => {
-					this.mvList=res.data.data.list
+					this.mvList=res.data
 					console.log("----获取mv数据----->",res)
 				}
 			});

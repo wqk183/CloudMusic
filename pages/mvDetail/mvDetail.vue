@@ -6,7 +6,7 @@
 			left-icon="back" 
 			background-color="#F8F8F8"
 			left-text="返回" 
-			title="精选视频"
+			title="精选视频详情"
 			@clickLeft="backUpPage"
 			>
 		</uni-nav-bar>
@@ -22,7 +22,7 @@
 			<view class="mvDetail-comment-desc">
 				<view class="mvDetail-comment-desc-author">
 					<image class="img" src="../../static/img/touxiang.png"></image>
-					<view class="author">{{mvDeatailData.singer_name}}</view>
+					<view class="author">{{mvDeatailData.singername}}</view>
 				</view>
 				<view class="desc">{{mvDeatailData.mvdesc}}</view>
 			</view>
@@ -67,9 +67,18 @@
 			},
 			//获取mv链接
 			getMvDetail(){
+				// uni.request({
+				// 	url:this.$baseURL+'/mvdetail?vid='+this.mvDeatailData.vid
+				// 	success: (res) => {
+				// 		console.log("===vid====>",this.mvDeatailData.vid)
+				// 		console.log("===获取mv链接====>",res)
+				// 		this.mvUrl=res.data[0].mvurl
+				// 	}
+				// })
 				uni.request({
-					url:'https://api.qq.jsososo.com/mv/url?id='+this.mvDeatailData.vid,
+					url:'https://api.qq.jsososo.com/mv/url?id='+this.mvDeatailData.vid,  
 					success: (res) => {
+						//console.log("===vid====>",this.mvDeatailData.vid)
 						console.log("===获取mv链接====>",res)
 						this.mvUrl=res.data.data[this.mvDeatailData.vid][0]
 					}

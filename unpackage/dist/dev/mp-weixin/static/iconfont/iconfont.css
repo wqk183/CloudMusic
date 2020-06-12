@@ -1,5 +1,5 @@
 @font-face {font-family: "iconfont";
-  src: url('//at.alicdn.com/t/font_1584210_je2uj2vzsq.ttf') format('truetype');
+  src: url('//at.alicdn.com/t/font_1584210_oalqjyq611.ttf') format('truetype');
 }
 
 .iconfont {
@@ -11,36 +11,44 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-wode:before {
-  content: "\e60c";
+.icon-pinglun:before {
+  content: "\e611";
 }
 
-.icon-paixingbang:before {
-  content: "\e6c5";
+.icon-fabu:before {
+  content: "\e616";
 }
 
-.icon-iconfontzhizuobiaozhun023146:before {
-  content: "\e694";
+.icon-xiazai1:before {
+  content: "\e66a";
 }
 
-.icon-yinyue:before {
-  content: "\e680";
+.icon-shanchu:before {
+  content: "\e614";
 }
 
-.icon-geshou:before {
-  content: "\e605";
+.icon-lujing:before {
+  content: "\e622";
 }
 
-.icon-shoucang:before {
-  content: "\e613";
+.icon-tubiaozhizuomobanyihuifu-:before {
+  content: "\e690";
 }
 
-.icon-tuijian:before {
-  content: "\e636";
+.icon-xihuan:before {
+  content: "\e61c";
 }
 
-.icon-dongtai:before {
-  content: "\e621";
+.icon-xiazai:before {
+  content: "\e69c";
+}
+
+.icon-xinxiguanli:before {
+  content: "\e615";
+}
+
+.icon-dongtaiguanli:before {
+  content: "\e62d";
 }
 
 .icon-shangyishou:before {
@@ -59,6 +67,14 @@
   content: "\e643";
 }
 
+.icon-iconfontzhizuobiaozhun023146:before {
+  content: "\e694";
+}
+
+.icon-shoucang:before {
+  content: "\e613";
+}
+
 .icon-MV:before {
   content: "\e62c";
 }
@@ -71,18 +87,42 @@
   content: "\e637";
 }
 
-.icon-yinyue-copy:before {
-  content: "\e681";
+.icon-geshou:before {
+  content: "\e605";
 }
 
-.icon-tuijian-copy:before {
-  content: "\e682";
+.icon-paixingbang:before {
+  content: "\e6c5";
+}
+
+.icon-wode:before {
+  content: "\e60c";
+}
+
+.icon-wode-copy:before {
+  content: "\e684";
+}
+
+.icon-dongtai:before {
+  content: "\e621";
 }
 
 .icon-dongtai-copy:before {
   content: "\e683";
 }
 
-.icon-wode-copy:before {
-  content: "\e684";
+.icon-tuijian:before {
+  content: "\e636";
+}
+
+.icon-tuijian-copy:before {
+  content: "\e682";
+}
+
+.icon-yinyue:before {
+  content: "\e680";
+}
+
+.icon-yinyue-copy:before {
+  content: "\e681";
 }

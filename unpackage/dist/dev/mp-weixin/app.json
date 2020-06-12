@@ -1,13 +1,23 @@
 {
   "pages": [
     "pages/musicHall/music_hall",
-    "pages/recommend/recommend",
     "pages/activity/activity",
+    "pages/recommend/recommend",
     "pages/index/index",
-    "pages/recommendMore/recommendMore",
+    "pages/songListMore/songListMore",
     "pages/mvDetail/mvDetail",
     "pages/mvMore/mvMore",
-    "pages/recommendDetail/recommendDetail"
+    "pages/songListDetail/songListDetail",
+    "pages/recommendListDetail/recommendListDetail",
+    "pages/home/home",
+    "pages/register/register",
+    "pages/updateInfor/updateInfor",
+    "pages/myLove/myLove",
+    "pages/myDownload/myDownload",
+    "pages/activityDetail/activityDetail",
+    "pages/deleteActivity/deleteActivity",
+    "pages/comment/comment",
+    "pages/search/search"
   ],
   "subPackages": [],
   "window": {
@@ -18,7 +28,7 @@
   },
   "tabBar": {
     "color": "#7A7E83",
-    "selectedColor": "#31c27c",
+    "selectedColor": "#4fc08d",
     "borderStyle": "black",
     "backgroundColor": "#ffffff",
     "list": [
@@ -51,5 +61,5 @@
   "usingComponents": {
     "uni-nav-bar": "/components/uni-nav-bar/uni-nav-bar"
   },
-  "sitemapLocation": "sitemap35.json"
+  "sitemapLocation": "sitemap76.json"
 }
